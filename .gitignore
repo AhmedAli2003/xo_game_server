@@ -1,0 +1,32 @@
+# Node modules (always ignore this)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+
+# Optional: Visual Studio Code settings
+.vscode/
+
+# Build artifacts (if you use TypeScript or build tools)
+dist/
+build/
+
+# Optional: lock files (if you use yarn or want to keep it clean)
+package-lock.json
+yarn.lock
+
+# Mac system files
+*.DS_Store
